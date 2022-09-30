@@ -135,3 +135,13 @@ ul li:nth-child(4)::before{
     padding: 2px 8px;
     transition: padding 0.2s;
 }
+.pagebutton{
+    border : 2px solid gold;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.pagebutton:hover{
+    background-color: gold;
+    color:black;
+}
