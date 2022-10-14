@@ -1,23 +1,55 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400&family=Roboto+Condensed:ital@1&display=swap');
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+.conA{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:#fff;
+    background-size:cover;
+    color: rgb(48, 88, 168);
+    text-align:center;
+}
+.conA h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top:  0;
+    margin-bottom: 10px;
+    font-size:8rem;
+    line-height: 110%;
+    letter-spacing: 0.2em;
+}
+.conA img{
+    width:25%;
+}
 body{
-    background-color: #2a3463;
+    margin : 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(48, 88, 168);
     color: #2f2f2f;
-    font-family:'AppleSDGothicNeo','Noto Sans KR', sans-serif, 'Font Awesome 5 Free','Font Awesome 5 Brands';
+    font-family: 'AppleSDGothicNeo','Noto Sans KR', sans-serif, 'Font Awesome 5 Free','Font Awesome 5 Brands';
     font-size: 16px;
 }
 section{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    padding: 40px;
-    margin-bottom: 10px;
+    padding: 50px;
+    margin-bottom: 1rem;
 }
 .wrapper{
     width: 70%;
     margin: 20px auto;
+    margin-top:50px;
 }
-h1{
+.none{
     display: none;
 }
 h2, h3{
@@ -26,15 +58,15 @@ h2, h3{
 h2{
     margin: 0 0 20px 0;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 1.3rem;
 }
 #my_info h2{
-    display: none;
+    display:none;
 }
 #my_info img{
-    width: 100px;
+    width: 9.5rem;
     height: auto;
-    border-radius: 50px;
+    border-radius: 50%;
     margin-right: 40px;
 }
 table{
@@ -42,13 +74,22 @@ table{
     border-collapse: collapse;
     border-spacing: 0;
     vertical-align: top;
+    padding: 1rem;
+}
+.keywords{
+    padding: 20px;
+}
+.keywords a{
+    margin: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 th{
     text-align: left;
     padding-right: 20px;
 }
 th, td{
-    font-size: 15px;
+    font-size: 1rem;
 }
 #myname th{
     display: none;
@@ -57,7 +98,7 @@ th, td{
     padding-bottom:15px;
 }
 #myname #korname{
-    font-size: 18px;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 #myname #engname{
@@ -70,7 +111,7 @@ a{
 }
 a:hover{
     text-decoration: underline;
-    color: gold;
+    color: rgb(48, 88, 168);
 }
 ul{
     list-style: none;
@@ -95,8 +136,9 @@ ul li::before{
 }
 #skill li{
     display: inline-block;
-    background-color: gold;
-    color:#141d4e;
+    background-color: rgb(48, 88, 168);
+    color: #fff;
+    border: 3px solid rgb(48, 88, 168);
     padding: 4px 10px;
     border-radius: 32px;
     margin: 0 8px 8px 0;
@@ -125,8 +167,8 @@ ul li::before{
     padding: 8px;
 }
 #projects a:hover{
-    color: gold;
-    background-color: #2f396e;
+    color: #fff;
+    background-color: rgb(48, 88, 168);
     text-decoration: none;
 }
 .pagebutton{
@@ -138,4 +180,13 @@ ul li::before{
 .pagebutton:hover{
     background-color: gold;
     color:black;
+}
+
+@media(max-width:768px){
+    .conA h1{
+        font-size:5rem;
+    }
+    .conA p{
+        font-size : 1rem;
+    }
 }

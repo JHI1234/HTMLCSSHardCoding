@@ -8,96 +8,133 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css">
     <script src="https://kit.fontawesome.com/5f42398762.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
-    <div class="wrapper">
-        <h1>정혜인의 홈페이지</h1>
-        <section id="my_info">
-            <h2>My Info</h2>
-            <img src="images/profile.jpg" alt="정혜인의 얼굴사진"/>
-            <table>
-                <tbody>
-                    <tr id="myname">
-                        <th>이름</th>
-                        <td id="korname">정혜인</td>
-                        <td id="engname">Hyein Jeong</td>
-                    </tr>
-                    <tr>
-                        <th>직업</th>
-                        <td>학생</td>
-                    </tr>
-                    <tr>
-                        <th>나이</th>
-                        <td>25</td>
-                    </tr>
-                    <tr>
-                        <th>거주지</th>
-                        <td>부산</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+    <div class="col-md-7" data-aos="fade-right">
+        <div class="conA">
+            <div class="container">
+                <h1>Portfolio</h1>
+                <p class="name">Jeong Hye in</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-7" data-aos="fade-up">
+        <div class="wrapper">
+            <h1 class="none">정혜인의 홈페이지</h1>
+            <section id="my_info">
+                <h2>My Info</h2>
+                <img src="images/profile.jpg" alt="정혜인의 얼굴사진" />
+                <table>
+                    <tbody>
+                        <tr id="myname">
+                            <th>이름</th>
+                            <td id="korname">정혜인</td>
+                            <td id="engname">Hyein Jeong</td>
+                        </tr>
+                        <tr>
+                            <th>나이</th>
+                            <td>25세</td>
+                        </tr>
+                        <tr>
+                            <th>학력</th>
+                            <td>부산경상대학교 컴퓨터정보융합과 재학</td>
+                        </tr>
+                        <tr>
+                            <th>경력 사항</th>
+                            <td>추가 예정</td>
+                        </tr>
+                        <tr>
+                            <th>수료 내역</th>
+                            <td>추가 예정</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ul class="keywords">
+                    <li><a href="#">#저는 이런 사람입니다</a> <a href="#">#저는 이런 사람입니다</a></li>
+                    <li><a href="#">#저는 이런 사람입니다</a> <a href="#">#저는 이런 사람입니다</a></li>
+                    <li><a href="#">#저는 이런 사람입니다</a> <a href="#">#저는 이런 사람입니다</a></li>
+                </ul>
+            </section>
+            <div class="col-md-7" data-aos="fade-right" data-aos-offset="0">
+                <section id="about">
+                    <h2>ABOUT</h2>
+                    <p>스마트팩토리 전문가가 될 인재, 정혜인입니다!</p>
+                </section>
+            </div>
+            <div class="col-md-7" data-aos="fade-left" data-aos-offset="0">
+                <section id="contact">
+                    <h2>CONTACT</h2>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i><a href="tel:010-000-0000">010-000-0000</a></li>
+                        <li><i class="fa-solid fa-envelope"></i><a href="mailto:in5678@kakao.com"
+                                target="_blank">in5678@kakao.com</a></li>
+                        <li><i class="fa-brands fa-github"></i><a href="https://jhi1234.github.io/"
+                                target="_blank">@JHI1234</a>
+                        </li>
+                        <!-- <li><i class="fa-brands fa-facebook"></i><a href="https://www.instagram.com/cxrrxt__/" target="_blank"> @cxrrxt__</a></li> -->
+                    </ul>
+                </section>
+            </div>
+            <div class="col-md-7" data-aos="fade-right" data-aos-offset="0">
+                <section id="skill">
+                    <h2>SKILLS</h2>
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>PHP</li>
+                        <li>C#</li>
+                        <li>Python</li>
+                    </ol>
+                </section>
+            </div>
+            <div class="col-md-7" data-aos="fade-left" data-aos-offset="0">
+                <section id="projects">
+                    <h2>PROJECTS</h2>
+                    <ol>
+                        <li>
+                            <h3><a href="https://jhi1234.github.io/" target="_blank">Gitblog</a></h3>
+                            <iframe width="100%" height="400" src="https://jhi1234.github.io/"></iframe>
+                            <p>My Gitblog</p>
+                        </li>
+                        <!-- <li>
+                                    <h3>JavaScript</h3>
+                                    <a class="pagebutton" href="http://l.bsks.ac.kr/~p202206011/">사이트 이동</a>
+                                    <iframe width="100%" height="400" src="http://l.bsks.ac.kr/~p202206011/"></iframe>
+                                    <p>JavaScript 실습사이트</p>
+                                </li>
+                                <li>
+                                    <h3>PHP</h3>
+                                    <a class="pagebutton" href="http://l.bsks.ac.kr/~p202206011/php/">사이트 이동</a>
+                                    <iframe width="100%" height="400" src="http://l.bsks.ac.kr/~p202206011/php/"></iframe>
+                                    <p>PHP 실습사이트</p>
+                                </li> -->
+                        <li>
+                            <h3>Video</h3>
+                            <iframe width="100%" height="400" src="https://www.youtube.com/embed/7vedHzJu-H0"
+                                title="Youtube video player" frameborder="0"
+                                allow="acclerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <p>Joe Hisaishi</p>
+                        </li>
+                    </ol>
+                </section>
+            </div>
+        </div>
 
-        <section id="about">
-            <h2>ABOUT</h2>
-            <p>스마트팩토리 전문가가 될 인재</p>
-        </section>
-
-        <section id="contact">        
-            <h2>CONTACT</h2>
-            <ul>
-                <li><i class="fa-solid fa-phone"></i><a href="tel:010-000-0000">010-000-0000</a></li>
-                <li><i class="fa-solid fa-envelope"></i><a href="mailto:in5678@kakao.com" target="_blank">in5678@kakao.com</a></li>
-                <li><i class="fa-brands fa-github"></i><a href="https://jhi1234.github.io/" target="_blank">@JHI1234</a></li>
-                <!-- <li><i class="fa-brands fa-facebook"></i><a href="https://www.instagram.com/cxrrxt__/" target="_blank"> @cxrrxt__</a></li> -->
-            </ul>
-        </section>
-
-        <section id="skill">
-            <h2>SKILLS</h2>
-            <ol>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>PHP</li>
-                <li>C#</li>
-                <li>Python</li>
-            </ol>
-        </section>
-
-        <section id="projects">
-            <h2>PROJECTS</h2>
-            <ol>
-                <li>
-                    <h3><a href="https://jhi1234.github.io/" target="_blank"">Gitblog</a></h3>
-                    <iframe width="100%" height="400" src="https://jhi1234.github.io/"></iframe>
-                    <p>My Gitblog</p>
-                </li>
-                <!-- <li>
-                    <h3>JavaScript</h3>
-                    <a class="pagebutton" href="http://l.bsks.ac.kr/~p202206011/">사이트 이동</a>
-                    <iframe width="100%" height="400" src="http://l.bsks.ac.kr/~p202206011/"></iframe>
-                    <p>JavaScript 실습사이트</p>
-                </li>
-                <li>
-                    <h3>PHP</h3>
-                    <a class="pagebutton" href="http://l.bsks.ac.kr/~p202206011/php/">사이트 이동</a>
-                    <iframe width="100%" height="400" src="http://l.bsks.ac.kr/~p202206011/php/"></iframe>
-                    <p>PHP 실습사이트</p>
-                </li> -->
-                <li>
-                    <h3>Video</h3>
-                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/7vedHzJu-H0"
-                        title="Youtube video player" frameborder="0"
-                        allow="acclerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <p>Joe Hisaishi</p>
-                </li>
-            </ol>
-        </section>
     </div>
 
+
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+
+    </script>
 </body>
 </html>
 
