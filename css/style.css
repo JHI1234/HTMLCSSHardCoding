@@ -8,35 +8,64 @@
     font-weight: normal;
     font-style: normal;
 }
-
-.conA{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background:#fff;
-    background-size:cover;
-    color: rgb(48, 88, 168);
-    text-align:center;
-}
-.conA h1{
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-top:  0;
-    margin-bottom: 10px;
-    font-size:8rem;
-    line-height: 110%;
-    letter-spacing: 0.2em;
-}
-.conA img{
-    width:25%;
-}
 body{
+    width: 100%;
+    height:100%;
     margin : 0;
-    font-family: 'Roboto Condensed', sans-serif;
     background-color: rgb(48, 88, 168);
     color: #2f2f2f;
-    font-family: 'AppleSDGothicNeo','Noto Sans KR', sans-serif, 'Font Awesome 5 Free','Font Awesome 5 Brands';
-    font-size: 16px;
+    font-family: 'AppleSDGothicNeo', 'Roboto Condensed','Noto Sans KR', sans-serif, 'Font Awesome 5 Free','Font Awesome 5 Brands';
+    font-size: 1rem;
+    padding-top : 12vh;
+}
+header{
+    width: 100%;
+    position:fixed;
+    padding: 0;
+    margin: 0 auto;
+    top: 0;
+    z-index: 2;
+    box-shadow: 1px 1px 10px rgb(109, 109, 109);
+}
+.nav{
+    height: 10vh;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(255, 253, 239);
+    color: rgb(48, 88, 168);
+}
+.title{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:2rem;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+.box a:hover{
+    text-decoration: none;
+}
+.box{
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav ul li{
+    padding: 0 10px;
+}
+:target{
+    scroll-margin-top: 10vh;
+}
+html{
+    scroll-behavior: smooth;
 }
 section{
     background-color: rgb(255, 255, 255);
@@ -45,9 +74,11 @@ section{
     margin-bottom: 1rem;
 }
 .wrapper{
-    width: 70%;
+    z-index: 1;
+    width: 80%;
     margin: 20px auto;
-    margin-top:50px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .none{
     display: none;
@@ -60,36 +91,95 @@ h2{
     text-transform: uppercase;
     font-size: 1.3rem;
 }
+.page{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    height : 80vh;
+    width: 100%;
+}
+.page div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    height: 80vh;
+    min-width: max-content;
+}
+.page div:last-child{
+    margin-right: 0;
+}
+.page #about{
+    flex-grow: 1;
+}
+.page .item:nth-child(1){flex-grow:1;}
+.page .item:nth-child(2){flex-grow:7;}
+#div_incon{
+    display: flex;
+    flex-direction: column;
+}
+#div_incon section{
+    flex-basis: 100%;
+}
+#about,#contact{
+    margin-bottom: 0px;
+}
+#contact ul{
+    margin-bottom: 0;
+}
+#my_info{
+    display: flex;
+    flex-direction: row;
+}
+#my_info div{
+    height: inherit;
+    padding : 0;
+    margin : 0 ;
+}
 #my_info h2{
     display:none;
 }
 #my_info img{
-    width: 9.5rem;
-    height: auto;
+    float: left;
+    width: 6.5rem;
+    height: 6.5rem;
     border-radius: 50%;
     margin-right: 40px;
 }
+#my_info p{
+    float:left;
+    margin-bottom: 0;
+}
+#my_info .desc {
+    font-size: 1.4rem;
+    margin: 0;
+    font-weight: bold;
+}
 table{
-    display: inline-block;
+    float: left;
     border-collapse: collapse;
     border-spacing: 0;
-    vertical-align: top;
-    padding: 1rem;
+    margin-bottom:1rem; 
 }
-.keywords{
-    padding: 20px;
-}
-.keywords a{
-    margin: 20px;
-    font-size: 1.3rem;
+.keywords {
+    padding-top: 10px;
+    font-size: 1.1rem;
     font-weight: bold;
+    line-height: 2rem;
+    clear: both;
+    margin : 0;
+}
+.keywords li:last-child{
+    line-height: none;
+    margin-bottom: 0;
 }
 th{
     text-align: left;
     padding-right: 20px;
 }
 th, td{
-    font-size: 1rem;
+    font-size: .9rem;
 }
 #myname th{
     display: none;
@@ -98,12 +188,30 @@ th, td{
     padding-bottom:15px;
 }
 #myname #korname{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 #myname #engname{
+    font-size: .9rem;
     margin-bottom: 10px;
     color: gray;
+}
+.career{
+    border-top: 1px dashed darkgray;
+    padding-top:1rem;
+    clear: both;
+    list-style-type: disc;
+}
+.career li{
+    margin-left : 1.5rem;
+    font-size: .9rem;
+}
+.career li:first-child{
+    font-weight: bold;
+    margin: 0;
+    font-size: 1rem;
+    list-style: none;
+    line-height: 2rem;
 }
 a{
     color: inherit;
@@ -133,6 +241,7 @@ ul li::before{
 #skill ol {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 #skill li{
     display: inline-block;
@@ -182,11 +291,36 @@ ul li::before{
     color:black;
 }
 
-@media(max-width:768px){
+@media(max-width:800px){
     .conA h1{
         font-size:5rem;
     }
     .conA p{
         font-size : 1rem;
     }
+    .page{
+        display: block;
+        margin: 20px auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        height : auto;
+    }
+    .page #div_incon,
+    .page #div_ab{
+        margin-bottom: 1rem;
+        min-width: 100%;
+        height: auto;
+    }
+    #my_info p{
+        clear: both;
+        float:left;
+        margin-bottom: 0;
+    }
+    th, td{
+        font-size: .8rem;
+    }
+    .col-md-7{
+        margin:0;
+    }
+
 }
