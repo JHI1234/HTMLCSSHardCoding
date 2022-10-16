@@ -5,8 +5,7 @@
 
 ## 👩‍💻 Personal Info
 - Jeong Hyein
-- Computer Science and Engineering 22
-- in5678@kakao.com
+- gpdls6357@gmail.com
 
 ## 🔨 Technology Stacks
 - Frontend : <span><img src="https://img.shields.io/badge/HTML-e34f26?style=flat&logo=html5&logoColor=white"/></span>
@@ -21,7 +20,7 @@
 <span><img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next-dot-js&logoColor=white"/></span>
 <span><img src="https://img.shields.io/badge/Recoil-3474DE?style=flat&logo=next-dot-js&logoColor=white"/></span><br/> -->
 - Backend : <span><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/></span>
-<span><img src="https://img.shields.io/badge/Django-092e20?style=flat&logo=c#&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/csharp-239120?style=flat&logo=csharp&logoColor=white"/></span>
 <!-- - Mobile App : <span><img src="https://img.shields.io/badge/React Native-61dafb?style=flat&logo=react&logoColor=white"/></span><br/>
 - Deployment : <span><img src="https://img.shields.io/badge/AWS-232f3e?style=flat&logo=amazon-aws&logoColor=white"/></span>
 <span><img src="https://img.shields.io/badge/Netlify-00c7b7?style=flat&logo=netlify&logoColor=white"/></span>
