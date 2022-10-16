@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>정혜인의 이력서</title>
+    <title>JHI's Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css">
     <script src="https://kit.fontawesome.com/5f42398762.js" crossorigin="anonymous"></script>
@@ -12,62 +12,70 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
-
-    <header>
-        <div class="col-md-7" data-aos="fade-right" data-aos-once="false">
-            <div class="nav">
-                <div class="box">                
-                    <!-- <p class="name">Jeong Hye in</p> -->
-                    <div class="title"><a href="#">Portfolio</a></div>
-                    <ul>
-                        <li><a href="#my_info" class="go">About me</a></li>
-                        <li><a href="#skill" class="go">Skills</a></li>
-                        <li><a href="#projects" class="go">Projects</a></li>
-                    </ul>
-                </div>
+    <div class="col-md-7" data-aos="fade-right">
+        <div class="conA">
+            <div class="container">
+                <p class="main">개발자 포트폴리오</p>
+                <p class="main name">-정혜인-</p>
+                <a href="#start"><span>Click me!</span></a>
             </div>
         </div>
+    </div>
+    <header id="header">
+        <div class="nav">
+            <!-- <p class="name">Jeong Hye in</p> -->
+            <div class="title"><a href="#">Portfolio</a></div>
+            <ul>
+                <li><a href="#start">About me</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#archiving">Archiving</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#">Top</a></li>
+            </ul>
+        </div>
     </header>
-    
-    <div class="wrapper">
+    <span id="start"></span>
+    <div class="wrapper" id="wrapper">
         <h1 class="none">정혜인의 홈페이지</h1>
         <div class="page">
             <div class="item" id="div_incon">
-                <div class="col-md-7" data-aos="fade-right">
+                <div class="col-md-7" data-aos="fade-left">
                     <section class="item1" id="my_info" name="my_info">
                         <div>
-                            <h2>My Info</h2>
+                            <h1 class="none">My Info</h1>
                             <img src="images/profile.jpg" alt="정혜인의 얼굴사진" />
-                            <p>스마트팩토리 전문가가 될 열정가득한 인재</p>
+                            <p>능력있는 풀스택 개발자가 목표인</p>
                             <p class="desc">정혜인입니다!</p>
                             <ul class="keywords">
-                                <li>#저는 이런 사람입니다</li>
-                                <li>#저는 이런 사람입니다</li>
-                                <li>#저는 이런 사람입니다</li>
+                                <li># 열정있는 # 능력있는 # 잘하는</li>
+                                <li># 최종 목표는</li>
+                                <li># 개발자 말고 개발짱</li>
                             </ul>
                         </div>
                     </section>
                     <section class="item1" id="contact">
-                        <h2>CONTACT</h2>
+                        <h1>CONTACT</h1>
                         <ul>
                             <li><i class="fa-solid fa-phone"></i><a href="tel:010-000-0000">010-000-0000</a></li>
-                            <li><i class="fa-solid fa-envelope"></i><a href="mailto:in5678@kakao.com" target="_blank">in5678@kakao.com</a></li>
-                            <li><i class="fa-brands fa-github"></i><a href="https://jhi1234.github.io/" target="_blank">@JHI1234</a></li>
+                            <li><i class="fa-solid fa-envelope"></i><a href="mailto:in5678@kakao.com"
+                                    target="_blank">in5678@kakao.com</a></li>
+                            <li><i class="fa-brands fa-github"></i><a href="https://jhi1234.github.io/"
+                                    target="_blank">@JHI1234</a></li>
                             <!-- <li><i class="fa-brands fa-facebook"></i><a href="https://www.instagram.com/cxrrxt__/" target="_blank"> @cxrrxt__</a></li> -->
                         </ul>
                     </section>
                 </div>
             </div>
             <div class="item" id="div_ab">
-                <div class="col-md-7" data-aos="fade-left">
+                <div class="col-md-7" data-aos="fade-right">
                     <section id="about">
-                        <h2>ABOUT ME</h2>
+                        <h1>ABOUT ME</h1>
                         <table>
                             <tbody>
                                 <tr id="myname">
                                     <th>이름</th>
                                     <td id="korname">정혜인</td>
-                                    <td id="engname">Hyein Jeong</td>
+                                    <td id="engname">Jeong Hyein</td>
                                 </tr>
                                 <!-- <tr>
                                     <th>생년월일</i></th>
@@ -81,14 +89,14 @@
                                     <th>거주지</th>
                                     <td>부산광역시 연제구</td>
                                 </tr>
-                                <tr>
+                                <!-- <tr>
                                     <th>학력</th>
                                     <td>부산경상대학교 컴퓨터정보융합과</td>
                                 </tr>
                                 <tr>
                                     <th></th>
                                     <td>동서대학교 방송영상전공 수료</td>
-                                </tr>
+                                </tr> -->
                             </tbody>
                         </table>
                         <ul class="career">
@@ -96,34 +104,69 @@
                             <li>추가 예정</li>
                             <li>추가 예정</li>
                             <li>추가 예정</li>
+                            <li>추가 예정</li>
                         </ul>
+                        <p class="desc">
+                            나는 어떤 개발자가 되어야 할까?<br>
+                            개발 공부를 하면서 고민해왔습니다.<br><br> 
+                            개발자로서의 여러 모습을 상상했지만,<br> 
+                            결국 이 일을 즐겨야 멀리갈 수 있겠다는 생각을 했습니다.<br><br>
+                            언제나 재미있고 의미 있는 개발을 하며<br> 새로운 도전을 멈추지 않는 개발자, 정혜인입니다.
+
+                        </p>
                     </section>
                 </div>
             </div>
         </div>
         <div class="col-md-7" data-aos="fade-right">
             <section id="skill" name="skill">
-                <h2>SKILLS</h2>
-                <ol>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>PHP</li>
-                    <li>C#</li>
-                    <li>Python</li>
-                </ol>
+                <h1>SKILLS</h1>
+                <div>
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>PHP</li>
+                        <li>C#</li>
+                        <li>Python</li>
+                    </ol>
+                </div>
+                <div>
+                    <ul>
+                        <li>웹표준, 웹 접근성을 고려한 시멘틱 마크업 작업이 가능합니다.</li>
+                        <li>HTML과 CSS로 주어진 디자인 레이아웃에 따라 페이지를 디자인할 수 있습니다.</li>
+                        <li>CSS Media Query를 사용하여 반응형 웹을 만들 수 있습니다.</li>
+                    </ul>
+                </div>
             </section>
         </div>
         <div class="col-md-7" data-aos="fade-left">
-            <section id="projects">
-                <h2>PROJECTS</h2>
+            <section id="archiving">
+                <h1>ARCHIVING</h1>
                 <ol>
-                    <li>
-                        <h3><a href="https://jhi1234.github.io/" target="_blank">Gitblog</a></h3>
-                        <iframe width="100%" height="350" src="https://jhi1234.github.io/"></iframe>
-                        <p>My Gitblog</p>
+                    <li class="archive first">
+                        <div class="ar_div1">
+                            <img width="100px" src="https://www.seekpng.com/png/full/192-1923013_transparent-png-github-logo.png">
+                            <a href="https://jhi1234.github.io/" target="_blank">https://jhi1234.github.io/</a>
+                            <h4>공부 및 지식 공유 목적의 블로그입니다.</h4>
+                            <ul>
+                                <li>웹에 대해 공부하며 배운 지식 기록</li>
+                                <li>전공 강의들의 내용 복습 및 정리</li>
+                                <li>개발 관련 정보 공유를 통한 네트워킹</li>
+                            </ul>
+                        </div>
+                        <div class="ar_div2">
+                            <iframe width="100%" height="350" src="https://jhi1234.github.io/"></iframe>
+                        </div>
                     </li>
+                </ol>
+            </section>
+        </div>
+        <div class="col-md-7" data-aos="fade-right">
+            <section id="projects">
+                <h1>PROJECTS</h1>
+                <ol>
                     <!-- 
                         <li>
                             <h3>JavaScript</h3>
@@ -147,10 +190,15 @@
                 </ol>
             </section>
         </div>
+
     </div>
-    
-    
-    
+    <footer>
+            <!-- <p class="name">Jeong Hye in</p> -->
+            <p>&copy;2022. Jeong Hyein All rights reserved.<br>
+                본 사이트는 상업적 목적이 아닌 개인 포트폴리오 사이트로 제작되었습니다.
+            </p>
+    </footer>
+
     <script>
         AOS.init({
             easing: 'ease-out-back',
