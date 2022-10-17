@@ -39,4 +39,3 @@
 
 ## 📝 Portfolio Website - <a href="https://jhi1234.github.io/HTMLCSSHardCoding/">Here(Github)</a> or - <a href="https://portfolio-sample-jhi1234.netlify.app">Here(Netlify)</a>
 [![image](./images/portfolio.png)](https://jhi1234.github.io/HTMLCSSHardCoding/)
-- <a href="https://portfolio-sample-jhi1234.netlify.app">Here</a>
