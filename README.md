@@ -21,7 +21,7 @@
 <span><img src="https://img.shields.io/badge/Recoil-3474DE?style=flat&logo=next-dot-js&logoColor=white"/></span><br/> -->
 - Backend : <span><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/></span>
 <span><img src="https://img.shields.io/badge/csharp-239120?style=flat&logo=csharp&logoColor=white"/></span>
-<span><img src="https://img.shields.io/badge/php-777BB4?style=flat&logo=csharp&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/php-777BB4?style=flat&logo=php&logoColor=white"/></span>
 <!-- - Mobile App : <span><img src="https://img.shields.io/badge/React Native-61dafb?style=flat&logo=react&logoColor=white"/></span><br/>
 - Deployment : <span><img src="https://img.shields.io/badge/AWS-232f3e?style=flat&logo=amazon-aws&logoColor=white"/></span>
 <span><img src="https://img.shields.io/badge/Netlify-00c7b7?style=flat&logo=netlify&logoColor=white"/></span>
